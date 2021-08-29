@@ -3,7 +3,13 @@
 - title: Years
   url: /years/
 - title: Categories
-  url: /categories/
+  sublinks : 
+    - title : SQL Study
+      url: /categories/SQLStudy
+      
+    - title : Others
+      url: /categories/others
+      
 - title: Tags
   url: /tags/
 - title: More
