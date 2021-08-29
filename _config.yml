@@ -3,6 +3,7 @@ description: Another minimal style of Jekyll theme for writers
 author: Shangzhi Huang
 avatar: /kimJaeHyeong.jpg
 email: kimjaehyeong92@gmail.com
+skin: midnight
 
 plugins:
   - jekyll-seo-tag
