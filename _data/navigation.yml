@@ -5,10 +5,10 @@
 - title: Categories
   sublinks: 
     - title: SQL Study
-        url: /Categories/SQLStudy
+        url: /Categories/SQLStudy/
 
     - title: Others
-        url: /Categories/others
+        url: /Categories/others/
 
   
 - title: Tags
