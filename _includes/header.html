@@ -45,6 +45,7 @@
                           <li class="dropdown" href="#">
                             <a href="javascript:void(0)" class="dropbtn">{{ link.title | escape }}</a>
                             <div class="dropdown-content">
+                              <ul class="trigger">
                               {%- for link2 in link.sublinks %}
                                 {%- if link2.title -%}
                                   {% if link2.sublinks %}
@@ -59,6 +60,7 @@
                                   {% endif %}
                                 {%- endif -%}
                               {%- endfor %}
+                              </ul>
                             </div>
                           </li>
                       {% else %}    
