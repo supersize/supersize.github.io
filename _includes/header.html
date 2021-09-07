@@ -36,14 +36,14 @@
           {%- if nav.title -%}
             {% if nav.sublinks %}
               <li class="dropdown" href="#">
-                <a href="javascript:void(0)" class="dropbtn">{{ nav.title | escape }}</a>
+                <li>{{ nav.title | escape }}</li>
                 <div class="dropdown-content">
                   <ul class="trigger">
                   {%- for link in nav.sublinks %}
                     {%- if link.title -%}
                       {% if link.sublinks %}
                           <li class="dropdown" href="#">
-                            <a href="javascript:void(0)" class="dropbtn">{{ link.title | escape }}</a>
+                            <li>{{ link.title | escape }}</li>
                             <div class="dropdown-content">
                               <ul class="trigger">
                               {%- for link2 in link.sublinks %}
