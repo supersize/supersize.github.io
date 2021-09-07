@@ -4,12 +4,7 @@
   url: /years/
 - title: Categories
   sublinks : 
-    - title : SQL Study
-      url: /categories/SQLStudy
-      
-    - title : Others
-      url: /categories/others
-      
+  
 - title: Tags
   url: /tags/
 - title: More
