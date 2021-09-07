@@ -38,7 +38,7 @@
               <li class="dropdown" href="#">
                 <a href="javascript:void(0)" class="dropbtn">{{ nav.title | escape }}</a>
                 <div class="dropdown-content">
-                  <ul>
+                  <ul class="trigger">
                   {%- for link in nav.sublinks %}
                     
                     {%- if link.title -%}
@@ -46,7 +46,7 @@
                         
                           <li class="dropdown" href="#">
                             <a href="javascript:void(0)" class="dropbtn">{{ link.title | escape }}</a>
-                            <div class="dropdown">
+                            <div class="dropdown-content">
                               {%- for link2 in link.sublinks %}
                                 <a class="{% if page.url == link2.url %}current-page{% endif %}" href="{{ link2.url | relative_url }}">{{ link2.title | escape }}</a>
                               {%- endfor %}
