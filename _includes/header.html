@@ -47,8 +47,8 @@
                           <a href="javascript:void(0)" class="dropbtn">{{ link.title | escape }}</a>
                           <div class="dropdown-content">
                             {%- for link2 in link.sublinks %}
+                              <a class="{% if page.url == link2.url %}current-page{% endif %}" href="{{ link2.url | relative_url }}">{{ link2.title | escape }}</a>
                               
-                              {{ link2 }}
                             {%- endfor %}
                           </div>
                         </li>
