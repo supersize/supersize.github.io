@@ -52,9 +52,8 @@
                               {%- endfor %}
                             </div>
                           </li>
-                        </ul>
                       {% else %}    
-                        <li class="dropdown"><a class="{% if page.url == link.url %}current-page{% endif %}" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a></li>
+                        <li><a class="{% if page.url == link.url %}current-page{% endif %}" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a></li>
                       {% endif %}
                     {%- endif -%}
                   {%- endfor %}
