@@ -4,8 +4,10 @@
   url: /years/
 - title: Categories
   sublinks: 
-    - title: SQL Study
-      url: /Categories/SQLStudy/
+    - title: Programing
+      sublinks: 
+      - title: SQL Study
+        url: /Categories/SQLStudy/
 
     - title: Teaching Korean
       url: /Categories/TeachingKorean/
