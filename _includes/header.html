@@ -36,7 +36,7 @@
           {%- if nav.title -%}
             {% if nav.sublinks %}
               <li class="dropdown" href="#">
-                <li>{{ nav.title | escape }}</li>
+                <a class="dropbtn">{{ nav.title | escape }}</a>
                 <div class="dropdown-content">
                   <ul class="trigger">
                   {%- for link in nav.sublinks %}
