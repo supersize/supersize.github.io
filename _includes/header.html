@@ -52,7 +52,7 @@
                             </div>
                           </li>
                         {% else %}
-                          <li><a class="{% if page.url == nav.link2 %}current-page{% endif %}" href="{{ link2.url | relative_url }}">{{ link2.title | escape }}</a></li>
+                          <li><a class="{% if page.url == link2.link %}current-page{% endif %}" href="{{ link2.url | relative_url }}">{{ link2.title | escape }}</a></li>
                         {% endif %}
                       {%- endif -%}
                     {%- endfor -%}
