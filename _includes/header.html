@@ -39,10 +39,24 @@
                 <a href="javascript:void(0)" class="dropbtn">{{ nav.title | escape }}</a>
                 <div class="dropdown-content">
                   {%- for link in nav.sublinks %}
-                    kim : {{ link }}
-                  
                     
                   
+                    {%- if link.title -%}
+                      {% if link.sublinks %}
+                        <li class="dropdown" href="#">
+                          <a href="javascript:void(0)" class="dropbtn">{{ link.title | escape }}</a>
+                          <div class="dropdown-content">
+                            {%- for link2 in link.sublinks %}
+                              
+                              {{ link2 }}
+                            {%- endfor %}
+                          </div>
+                        </li>
+                      {% else %}    
+                        <li><a class="{% if page.url == link.url %}current-page{% endif %}" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a></li>
+                      {% endif %}
+                    {%- endif -%}
+                          
                   {%- endfor %}
                 </div>
               </li>
