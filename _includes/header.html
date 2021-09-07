@@ -40,7 +40,7 @@
                 <div class="dropdown-content">
                   {%- for link in nav.sublinks %}
                   
-                    {%- for link2 in link.navigation -%}
+                    {%- for link2 in link.sublinks -%}
                       {%- if link2.title -%}
                         {% if link2.sublinks %}
                           <li class="dropdown" href="#">
