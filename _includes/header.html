@@ -43,16 +43,18 @@
                   
                     {%- if link.title -%}
                       {% if link.sublinks %}
-                        <li href="#">
-                          <a href="javascript:void(0)" class="dropbtn">{{ link.title | escape }}</a>
-                          <div class="dropdown-content">
-                            {%- for link2 in link.sublinks %}
-                              <a class="{% if page.url == link2.url %}current-page{% endif %}" href="{{ link2.url | relative_url }}">{{ link2.title | escape }}</a>
-                            {%- endfor %}
-                          </div>
-                        </li>
+                        <ul class="trigger">
+                          <li class="dropdown" href="#">
+                            <a href="javascript:void(0)" class="dropbtn">{{ link.title | escape }}</a>
+                            <div class="dropdown-content">
+                              {%- for link2 in link.sublinks %}
+                                <a class="{% if page.url == link2.url %}current-page{% endif %}" href="{{ link2.url | relative_url }}">{{ link2.title | escape }}</a>
+                              {%- endfor %}
+                            </div>
+                          </li>
+                        </ul>
                       {% else %}    
-                        <li><a class="{% if page.url == link.url %}current-page{% endif %}" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a></li>
+                        <ul class="trigger"><li><a class="{% if page.url == link.url %}current-page{% endif %}" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a></li></ul>
                       {% endif %}
                     {%- endif -%}
                           
