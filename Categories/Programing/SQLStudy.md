@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SQLStudy
-permalink: /Categories/SQLStudy/
+permalink: /Categories/Programing/SQLStudy/
 ---
 
 An SQLStudy page.
