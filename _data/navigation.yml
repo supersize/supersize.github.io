@@ -5,9 +5,7 @@
 - title: Categories
   sublinks: 
     - title: Programing
-      sublinks: 
-      - title: SQL Study
-        url: /Categories/Programing/SQLStudy/
+      url: /Categories/Programing/
 
     - title: Teaching Korean
       url: /Categories/TeachingKorean/

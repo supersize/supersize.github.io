@@ -4,4 +4,4 @@ title: Teaching Korean
 permalink: /Categories/TeachingKorean/
 ---
 
-An Teaching Korean page.
+A Teaching Korean page.

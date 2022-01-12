@@ -4,4 +4,4 @@ title: Others
 permalink: /Categories/Others/
 ---
 
-An SQLStudy page.
+the other postings page.

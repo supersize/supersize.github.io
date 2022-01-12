@@ -136,6 +136,44 @@
     }
   }
 
+  ul.sub-trigger {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    li a {
+      line-height: $base-line-height * $base-font-size * 1.15;
+      display: inline;
+      padding: 5px 10px;
+      margin-left: auto;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-down a {
+      padding: 5px 10px;
+      display: block;
+      margin-left: auto;
+    }
+
+    .dropdown-content a {
+      padding: 5px 10px;
+      display: inline-block;
+      text-align: right;
+      margin-left: auto;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  }
+
   .current-page {
     text-decoration: line-through;
   }
