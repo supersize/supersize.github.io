@@ -23,5 +23,12 @@
     </div>
   </div>
 </body>
+<!-- body 최하단 -->
+<script src="{{ '/assets/js/InfiniteScroll.js' | relative_url }}"></script>
+<script>
+  const postWrapper = ".post-list";
+  const paginatePath = "/page/"; // page가 아니라 post로 해줘야하지 않을까?
+  new InfiniteScroll(paginatePath, postWrapper)
+</script>
 
 </html>
