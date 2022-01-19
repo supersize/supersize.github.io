@@ -6,14 +6,9 @@
   sublinks: 
     - title: Programing
       url: /Categories/Programing/
-
-    - title: Teaching Korean
-      url: /Categories/TeachingKorean/
-      
     - title: Others
       url: /Categories/Others/
 
-  
 - title: Tags
   url: /tags/
 - title: More

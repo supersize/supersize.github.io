@@ -1,10 +1,13 @@
 ---
-layout: default
+layout: page
+title: SQL
+permalink: /Categories/programing/sql
 ---
+{% include taxonmomies.html %}
+
+<hr/>
 
 <div class="home">
-
-  {{ content }}
 
   {% if site.paginate %}
   {% assign posts = paginator.posts %}
@@ -16,6 +19,7 @@ layout: default
   <ul class="post-list">
     {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
     {%- for post in posts -%}
+    {%- if post.catagories contains "SQL" or post.catagories contains "sql" -%}
     <li>
       <h2>
         <a class="post-link" href="{{ post.url | relative_url }}">
@@ -27,6 +31,7 @@ layout: default
       <div class="post-excerpt">{{ post.excerpt }}</div>
       {%- endif -%}
     </li>
+    {%- endif -%}
     {%- endfor -%}
   </ul>
 
