@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Jae's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "Jae Hyeong"
 description              : "An amazing website."
 url                      : "https://supersize.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
