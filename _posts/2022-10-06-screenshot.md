@@ -2,7 +2,6 @@
 layout : single
 title : "how to capture screen on Mac??"
 ---
-# how to capture screen on Mac??
 
 1. full scrrenshot
 
