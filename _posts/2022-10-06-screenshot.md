@@ -7,7 +7,7 @@ title : "how to capture screen on Mac??"
 
 > If you want to cupture a screenshot, press these buttons together "shift + command + 3".
 
-![](2022-10-06-16-36-26.png)
+![](../images/2022-10-06-16-36-26.png)
     
 2. a portion of screen
 > If you want to cupture a <u>**portion**</u> of screenshot, press these buttons together "shift + command + 4".
