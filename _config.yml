@@ -17,10 +17,10 @@ minimal_mistakes_skin    : "sunrise" # "default" "air", "aqua", "contrast", "dar
 # Site Settings
 locale                   : "en-US"
 title                    : "Jae's Blog"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title_separator          : "|"
+subtitle                 : Hello! Thanks for visiting my blog! # site tagline that appears below site title in masthead
 name                     : "Jae Hyeong"
-description              : "An amazing website."
+description              : "This is Jae's blog."
 url                      : "https://supersize.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Jae Hyeong"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "This is **Jae's** blog."
+  location         : "Earth"
   email            :
   links:
     - label: "Email"
