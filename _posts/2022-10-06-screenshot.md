@@ -1,8 +1,9 @@
 ---
 layout : single
 title : "how to capture screen on Mac??"
-categories: gitblog
-tag: [Github, Git Blog]
+categories: Mac/IOS
+tag: [Mac]
+toc: true
 ---
 # how to capture screen on Mac??
 
