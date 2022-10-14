@@ -4,7 +4,7 @@
     categories: Internet
     tag: proxy
 ---
-#### I studyed about "how proxy server works". I summerize here what I learned not to forget and to remind!
+#### I studied about "how proxy server works". I summerize here what I learned not to forget and to remind!
 
 ### What is proxy?
 > Basically, proxy is like a gateway bewtween you and the Internet. Proxy sever helps you to safely get the response that you requested as well as manage levels of functionality, security, and privacy dependinga on your ur use case, needs, and company policy.

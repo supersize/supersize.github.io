@@ -4,7 +4,7 @@
     categories: React
     tag: [prorps, state, component, ]
 ---
-#### I studyed about "props and state, and why ppl use them". I summerize here what I learned not to forget and to remind!
+#### I studied about "props and state, and why ppl use them". I summerize here what I learned not to forget and to remind!
 
 ### "Component" you have to know before knowing "props and states"? 
 1. what is <b>Component</b>?

@@ -4,7 +4,7 @@
     categories: Git
     tag: [Git, Node js]
 ---
-#### I studyed about "things I should know when commiting node js on my gitub". I summerize here what I learned not to forget and to remind!
+#### I studied about "things I should know when commiting node js on my gitub". I summerize here what I learned not to forget and to remind!
 
 ### Not to commit node_module files.
  You should be careful not to commit and push node modules on your git hub! it's too many!
