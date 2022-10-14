@@ -108,9 +108,9 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "This is **Jae's** blog."
   location         : "Earth"
-  email            : "kimjaehyeong92@gmail.com"
+  # email            : "kimjaehyeong92@gmail.com"
   links:
-    - label: "Email"
+    - label: "kimjaehyeong92@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       url: "kimjaehyeong92@gmail.com"
     - label: "LinkedIn"
