@@ -104,8 +104,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jae Hyeong"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Jae Hyeong, Kim"
+  avatar           : /asset/images/myself.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "This is **Jae's** blog."
   location         : "South Korea"
   # email            : "kimjaehyeong92@gmail.com"
