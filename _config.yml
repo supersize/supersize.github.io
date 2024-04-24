@@ -265,7 +265,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false # read time을 true로 하면 ~전에 읽음 표시가 나타난다.
       comments: true # true
       share: true
       related: true
