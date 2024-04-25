@@ -10,15 +10,16 @@
       </span>
     {% endif %}
 
-    <!-- last.modified_at -->
-    {% if document.last_modified_at %}
-      {% assign date = document.date %}
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-        <time datetime="{{ site.data.ui-text[site.locale].date_label | default: 'Updated:' }}">{{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</time>
-      </span>
-    {% endif %}
+    <!-- last.modified_at 
+      {% if document.last_modified_at %}
+        {% assign date = document.date %}
+        <span class="page__meta-date">
+          <i class="far fa-calendar-alt" aria-hidden="true"></i>
+          {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+          <time datetime="{{ site.data.ui-text[site.locale].date_label | default: 'Updated:' }}">{{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</time>
+        </span>
+      {% endif %}
+    -->
 
 
 
