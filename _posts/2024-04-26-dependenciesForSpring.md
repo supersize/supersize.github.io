@@ -18,9 +18,10 @@ toc: true
     
 
 
-## ** 하지만 실무에선 spring-beans 선언 안하고 작업하는 경우를 많이 봤고 구글링 결과 
+## ** 하지만 실무에선 spring-beans, spring-cre 선언 안하고 작업하는 경우를 많이 봤고 구글링 결과 
     google bard에 의하면
-    >Most Spring web-related dependencies, like spring-web and spring-webmvc, have spring-beans as a transitive dependency. This means that when you include them in your project, >Spring automatically downloads and includes spring-beans as well, even though it's not explicitly listed in your pom.xml.
+> Most Spring web-related dependencies, like spring-web and spring-webmvc, have spring-beans, spring-core as a transitive dependency. This means that when you include them in your 
+>  project, Spring automatically downloads and includes spring-beans as well, even though it's not explicitly listed in your pom.xml.
 
     또한, 부모 pom.xml에서 상속 받으면 선언하지 않아도 되는 경우도 있고, 스프링 부트 같은 경우 "spring-boot-starter-web" 안에 대부분 필요한 의존성들이 들어있다고 한다.
 
