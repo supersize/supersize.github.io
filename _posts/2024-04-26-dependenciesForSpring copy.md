@@ -5,7 +5,7 @@ categories: Spring
 tag: [Spring]
 toc: true
 ---
-#  Spring mvc 프로젝트 생성시 필요한 기본 의존성 들이 있다.
+##  Spring mvc 프로젝트 생성시 필요한 기본 의존성 들이 있다.
 ## Spring-beans 
     기본 중 기본 의존성. 객체생성, 설정, 의존성 주입 등을 한다.
 
